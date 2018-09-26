@@ -1,0 +1,27 @@
+<script src="ect.js"></script>
+<script>
+//Lista 05, exercicio 02 - https://youtu.be/jV_7qilc1NU
+/*Faça um programa que recebe do usuário e armazenar um vetor N números múltiplos
+de 3 e de 4 simultaneamente. Quando o usuário entrar com um número inválido
+o programa deve apresentar a mensagem “Número inválido!”, não inserir o número
+no vetor e solicitar que o usuário digite outro número.*/
+var a=[],x=0,y,tam,b;
+tam=parseInt(prompt("a quantidade de numeros"));
+while(x<tam){
+	b=parseInt(prompt("digite numeros maiores que 0"));
+	if(b%3==0&&b%4==0){
+	a[x]=b;
+	x++;
+}else{
+	alert("numero invalido");
+}
+}
+alert(a);
+
+
+
+
+	
+	
+
+</script>

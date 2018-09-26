@@ -1,0 +1,33 @@
+<script src="ect.js"></script>
+<script>
+	var a,b,c,x,vendas,contabilidade,s,d,f,g;
+	vendas==222;
+	contabilidade==111;
+	x=1;
+	while(x<=2){
+		a=parseFloat(prompt("Digite o salario atual"));
+		b=parseFloat(prompt("quantos anos trabalha na empresa"));
+		c=parseFloat(prompt("o setor que voce trabalha"));
+	if(c==222&&b>10){
+		s=a+(a*0.1);
+		alert("O salario atual eh: "+a+".\nO salario com o aumento de 10% para o setor de vendas com mais de 10 anos de trabalho eh: "+s);
+}
+    if(c==111&&b>10){
+		d=a+(a*0.4);
+		alert("O salario atual eh: "+a+".\nO salario com o aumento de 40% para o setor de contabilidade com mais de 10 anos de trabalho eh: "+d);
+}
+    if(c==111&&b>=5&&b<=10){
+		f=a+(a*0.2);
+		alert("O salario atual eh: "+a+".\nO salario com o aumento de 20% para o setor de contabilidade entre 5 e 10 anos de trabalho eh: "+f);
+}
+    if(c==111&&b<5){
+		g=a+(a*0.1);
+		alert("O salario atual eh: "+a+".\nO salario com o aumento de 10% para o setor de contabilidade com menos de 5 anos de trabalho eh: "+g);
+}
+x=3;
+}
+		
+		
+</script>
+
+

@@ -1,0 +1,35 @@
+<script src="ect.js"></script>
+<script>
+//Lista 04, exercicio 10 - https://youtu.be/N-MO1bp0qYg
+/*Implemente um programa que recebe dois números inteiros, N e M,
+repetidas vezes. Para cada vez que o programa receber os dois
+números, ele deve fazer uma contagem de M até N (inclusive). O
+programa deve encerrar quando os valores informados forem iguais
+entre si. Note que N não é necessariamente maior do que M.*/
+var x,a=1,y,N,M;
+while(a<2){
+	N=parseInt(prompt("Digite aqui os numeros do termo N"));
+	M=parseInt(prompt("Digite aqui os numeros do termo M"));
+	if(N==M){
+		a=3;
+}
+if(N>M){
+	while(N>M){
+	M=M+1;
+	alert(M);
+}	
+}
+if(M>N){
+	while(M>N){
+		M=M-1;
+		alert(M);
+}
+}
+}
+
+
+
+	
+	
+
+</script>

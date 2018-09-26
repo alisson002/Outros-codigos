@@ -1,0 +1,22 @@
+<script src="ect.js"></script>
+<script>
+	var a,b,c,x;
+	x=1;
+	a=Math.random()*100;
+	b=Math.round(a);
+	while(c!=b){
+		c=parseFloat(prompt("Digite aqui um numero tentando advinhar qual foi o sorteado pelo computador que vai de 1 a 100"));
+	if(c>b){
+		alert("O numero que voce digitou eh maior que o sorteado.\nTente novamente.");
+}
+    if(c<b){
+		alert("O numero que voce digitou eh menor que o sorteado.\nTente novamente.");
+}
+x++;
+}
+alert("Parabeins, apos "+x+" tentativas voce acertou o numero sorteado.");	
+		
+		
+</script>
+
+
